@@ -49,6 +49,9 @@ jQuery(function($) {
 	edButtons.push( new QTags.CloseButton() );
 
 
+	// wp
+	quicktags('comment');
+
 	// bbp
 	quicktags('bbp_topic_content');
 	quicktags('bbp_reply_content');
